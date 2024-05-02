@@ -16,6 +16,7 @@ const config = {
       screens: {
         "2xl": "1400px",
         sm: "576px",
+        mdsm:"639px",
         md: "768px",
         lg: "992px",
         xl: "1280px",
@@ -25,6 +26,13 @@ const config = {
       fontSize: {
         font12: [
           "12px",
+          {
+            lineHeight: "14px",
+            fontWeight: "500",
+          },
+        ],
+        font13: [
+          "13px",
           {
             lineHeight: "14px",
             fontWeight: "500",
@@ -116,7 +124,7 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "hsl(137, 71%, 43%)",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
