@@ -101,6 +101,13 @@ const config = {
             fontWeight: "600",
           },
         ],
+        font152: [
+          "15px",
+          {
+            lineHeight: "22px",
+            fontWeight: "700",
+          },
+        ],
         font15: [
           "15px",
           {
@@ -108,7 +115,7 @@ const config = {
             fontWeight: "500",
           },
         ],
-        font13: [
+        font131: [
           "13px",
           {
             lineHeight: "20px",
@@ -118,6 +125,7 @@ const config = {
       },
       colors: {
         border: "hsl(var(--border))",
+        bg2:"hsl(139, 53%, 94%)",
         bg: "hsl(210, 29%, 97%)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
